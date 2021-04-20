@@ -46,7 +46,7 @@ def pretraga(parametri_pretrage, unisti_prozor):
 def povezivanje_na_bazu():
     global conn
     global cursor
-    conn_string = "host='localhost' dbname='Crawler' user='postgres' password='supersonic'"
+    conn_string = "host='localhost' dbname='Crawler' user='postgres' password='test'"
     conn = psycopg2.connect(conn_string)
     cursor = conn.cursor()
     print "Connected!\n"
