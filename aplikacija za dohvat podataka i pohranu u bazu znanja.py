@@ -24,7 +24,7 @@ lista_gumbi = []
 #podaci_iz_baze = []
 
 def pretraga(parametri_pretrage, unisti_prozor):
-    so = stackexchange.Site(stackexchange.StackOverflow, app_key="q)CtGxFiOE5CiaikkBG25Q((", impose_throttling=True)
+    so = stackexchange.Site(stackexchange.StackOverflow, app_key="api_code_here", impose_throttling=True)
     so.be_inclusive()
     if __name__ == '__main__':
         if len(sys.argv) > 2:
